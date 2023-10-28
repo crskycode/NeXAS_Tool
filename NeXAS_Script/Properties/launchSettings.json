@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NeXAS_Script": {
+      "commandName": "Project",
+      "commandLineArgs": "-x Z:\\Games\\あくありうむ\\Script~"
+    }
+  }
+}
