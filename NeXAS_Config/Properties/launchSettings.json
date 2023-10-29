@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NeXAS_Config": {
+      "commandName": "Project",
+      "commandLineArgs": "-xc Z:\\Games\\あくありうむ\\Config~"
+    }
+  }
+}
