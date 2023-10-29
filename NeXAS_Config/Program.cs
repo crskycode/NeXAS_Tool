@@ -120,15 +120,15 @@ namespace NeXAS_Config
 
             try
             {
-                var extension = Path.GetExtension(filePath);
+                var extension = Path.GetExtension(filePath) ?? string.Empty;
                 var table = new Table();
 
-                switch (extension)
+                switch (extension.ToLower())
                 {
-                    case "json":
+                    case ".json":
                         table.LoadFromJson(filePath);
                         break;
-                    case "csv":
+                    case ".csv":
                         table.LoadFromCsv(filePath);
                         break;
                     default:
